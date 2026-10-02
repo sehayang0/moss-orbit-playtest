@@ -1,0 +1,10 @@
+{
+    "version":  "0.13.0",
+    "built_at":  "2026-10-02T13:59:06.0246834Z",
+    "source_commit":  "f6d2917158d41a6438e6bdffdff154a6b52658fa",
+    "source_dirty":  false,
+    "pck_sha256":  "fc39b08c84e5a1466944b37fdf4059f4b4a378cbb6d783bf35af6f2415e47589",
+    "pck_bytes":  7286628,
+    "wasm_sha256":  "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+    "wasm_bytes":  39514754
+}

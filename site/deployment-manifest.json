@@ -1,0 +1,65 @@
+{
+    "schema_version":  1,
+    "deployment_id":  "forest-orbit-pages-v1",
+    "version":  "0.13.0",
+    "source_commit":  "f6d2917158d41a6438e6bdffdff154a6b52658fa",
+    "prepared_at":  "2026-10-02T13:59:32.6233250Z",
+    "total_game_bytes":  47146398,
+    "files":  [
+                  {
+                      "name":  "index.html",
+                      "bytes":  5448,
+                      "sha256":  "ce6ea81f552979c551ae3b8292ba832ea911cd732d1808bd8c990cf0e25974ef"
+                  },
+                  {
+                      "name":  "index.js",
+                      "bytes":  279815,
+                      "sha256":  "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+                  },
+                  {
+                      "name":  "index.wasm",
+                      "bytes":  39514754,
+                      "sha256":  "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+                  },
+                  {
+                      "name":  "index.pck",
+                      "bytes":  7286628,
+                      "sha256":  "fc39b08c84e5a1466944b37fdf4059f4b4a378cbb6d783bf35af6f2415e47589"
+                  },
+                  {
+                      "name":  "index.png",
+                      "bytes":  21443,
+                      "sha256":  "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+                  },
+                  {
+                      "name":  "index.icon.png",
+                      "bytes":  21535,
+                      "sha256":  "c2ca6a1f6e1c1716e8a9b7d6c32854360646ec5e8b10f2f855e82df883000278"
+                  },
+                  {
+                      "name":  "index.apple-touch-icon.png",
+                      "bytes":  6504,
+                      "sha256":  "36803087671c28e07ccfcb5273addd0966f5c4792e68f3062aea4f0dc5eafa13"
+                  },
+                  {
+                      "name":  "index.audio.worklet.js",
+                      "bytes":  7298,
+                      "sha256":  "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+                  },
+                  {
+                      "name":  "index.audio.position.worklet.js",
+                      "bytes":  2973,
+                      "sha256":  "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+                  },
+                  {
+                      "name":  "build-info.json",
+                      "bytes":  412,
+                      "sha256":  "009ace1f759388502d3da0d190b1e9c2ca30f03015d2002c74322bb5fd6bf72c"
+                  },
+                  {
+                      "name":  ".nojekyll",
+                      "bytes":  0,
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  }
+              ]
+}

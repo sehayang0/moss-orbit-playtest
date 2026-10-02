@@ -1,0 +1,50 @@
+name: Publish Godot test game
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out exported game
+        uses: actions/checkout@v6
+      - name: Verify public artifact
+        shell: python
+        run: |
+          import hashlib, json, pathlib
+          site = pathlib.Path('site')
+          manifest = json.loads((site / 'deployment-manifest.json').read_text())
+          expected = {item['name'] for item in manifest['files']}
+          actual = {path.name for path in site.iterdir()}
+          assert actual == expected | {'deployment-manifest.json'}, 'Unexpected files in public export'
+          assert len(manifest['source_commit']) == 40, 'Missing source commit'
+          for item in manifest['files']:
+              path = site / item['name']
+              assert path.parent == site and path.is_file() and not path.is_symlink(), 'Invalid artifact path'
+              payload = path.read_bytes()
+              assert len(payload) == item['bytes'], f'Size mismatch: {path.name}'
+              assert hashlib.sha256(payload).hexdigest() == item['sha256'], f'Hash mismatch: {path.name}'
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+      - name: Upload exported game
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
