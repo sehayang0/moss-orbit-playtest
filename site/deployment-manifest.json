@@ -1,15 +1,15 @@
 {
     "schema_version":  1,
     "deployment_id":  "forest-orbit-pages-v1",
-    "version":  "0.14.0",
-    "source_commit":  "05b694cbc8ab4e2152e56b7ec07aa5cad29e113a",
-    "prepared_at":  "2026-10-02T15:07:58.9683776Z",
-    "total_game_bytes":  47124294,
+    "version":  "0.15.0",
+    "source_commit":  "dc3e49151279306a94b0ef4e5920d2957fe8e339",
+    "prepared_at":  "2026-10-02T15:52:56.0055638Z",
+    "total_game_bytes":  47118926,
     "files":  [
                   {
                       "name":  "index.html",
                       "bytes":  5448,
-                      "sha256":  "c7a282b036868b57634128afdde5d17197593f2d203c4660533e7de7134450eb"
+                      "sha256":  "95d1f83e28e57e7ad5c52a2ea65011df460bbff09870b0df9393eacde3089af8"
                   },
                   {
                       "name":  "index.js",
@@ -23,8 +23,8 @@
                   },
                   {
                       "name":  "index.pck",
-                      "bytes":  7264524,
-                      "sha256":  "693e15e34089e71b2376e1ea91468051b183867c99bff75243688fbc77103a67"
+                      "bytes":  7259156,
+                      "sha256":  "901a49d9d9947ce8fafe659e37cc2d3311b309f706a5f19afa6801a8a17f9a40"
                   },
                   {
                       "name":  "index.png",
@@ -54,7 +54,7 @@
                   {
                       "name":  "build-info.json",
                       "bytes":  412,
-                      "sha256":  "97d2790062c53cf7e9292d85fb5f28be0f9c5e74521d247c80a5d9ffef9821bc"
+                      "sha256":  "ad900795f38a5ba03199798bc1e16f760832ab441248b4399fcfb5158df87a40"
                   },
                   {
                       "name":  ".nojekyll",

@@ -1,10 +1,10 @@
 {
-    "version":  "0.14.0",
-    "built_at":  "2026-10-02T15:07:20.9807909Z",
-    "source_commit":  "05b694cbc8ab4e2152e56b7ec07aa5cad29e113a",
+    "version":  "0.15.0",
+    "built_at":  "2026-10-02T15:52:18.3856928Z",
+    "source_commit":  "dc3e49151279306a94b0ef4e5920d2957fe8e339",
     "source_dirty":  false,
-    "pck_sha256":  "693e15e34089e71b2376e1ea91468051b183867c99bff75243688fbc77103a67",
-    "pck_bytes":  7264524,
+    "pck_sha256":  "901a49d9d9947ce8fafe659e37cc2d3311b309f706a5f19afa6801a8a17f9a40",
+    "pck_bytes":  7259156,
     "wasm_sha256":  "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
     "wasm_bytes":  39514754
 }
